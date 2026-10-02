@@ -21,9 +21,8 @@ A machine-learning pipeline that predicts, **before a trip is booked**, whether 
 7. [Results](#-results)
 8. [Key Insights](#-key-insights)
 9. [Tech Stack](#-tech-stack--frameworks)
-10. [Repository Structure](#-repository-structure)
-11. [How to Run](#-how-to-run)
-12. [Limitations & Future Work](#-limitations--future-work)
+10. [How to Run](#-how-to-run)
+11. [Limitations & Future Work](#-limitations--future-work)
 
 ---
 
@@ -262,27 +261,7 @@ Only **444 of 65,289** trips (~0.7%) are misclassified.
 
 ---
 
-## 📁 Repository Structure
 
-```
-.
-├── HighCarbon_Prediction_Script.ipynb   # End-to-end EDA, features, model, submission
-├── submission.csv                       # Output: TripID, HighCarbon (probability)
-├── sample_submission.csv                # Reference submission format
-├── Methodology_HighCarbon_Prediction.md # Full methodology write-up
-├── Sustainability_Data_Dictionary.xlsx  # Column definitions
-├── docs/
-│   ├── Part2.pdf                        # GreenTravel Intelligence Challenge handbook
-│   ├── Sustainability_Capstone_Outline__Decarbonizing_Travel.pdf
-│   └── README__Sustainability_Capstone__Decarbonizing_Travel.pdf
-└── project/                             # Data folder (referenced as DATA_DIR in the notebook)
-    ├── public_trip_data.csv
-    ├── public_trip_event_attributes.csv
-    ├── public_trip_event_log.csv
-    ├── private_trip_data.csv
-    ├── private_trip_event_attributes.csv
-    └── private_trip_event_log.csv
-```
 
 > 💡 Consider adding the data files to `.gitignore` (or using Git LFS) — the event logs are large.
 
